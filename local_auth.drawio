@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-11T17:28:43.591Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15" etag="imZ2XPu5kBWAUR2NbT43" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-11T17:46:47.714Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15" etag="wC1ZzNCrCBRp0jqgxYPy" version="24.2.2" type="github">
   <diagram name="Page-1" id="7aqCi2-gou_1MsXE5nKl">
-    <mxGraphModel dx="1687" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3187" dy="1540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -59,6 +59,9 @@
         <mxCell id="aK0WpfesQRl-djgzvzo7-64" value="exceções&lt;div&gt;&lt;b&gt;catch&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="480" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="uFCmPriLI4l2OT3lbVlF-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aK0WpfesQRl-djgzvzo7-74" target="uFCmPriLI4l2OT3lbVlF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="aK0WpfesQRl-djgzvzo7-74" value="&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration: none; display: inline !important; float: none;&quot;&gt;Android+notAvailable&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="437" y="620" width="120" height="60" as="geometry" />
         </mxCell>
@@ -74,8 +77,17 @@
         <mxCell id="aK0WpfesQRl-djgzvzo7-78" value="&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration: none; display: inline !important; float: none;&quot;&gt;UI erro para usuário&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="233" y="720" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uFCmPriLI4l2OT3lbVlF-1" value="emit erro insights&lt;div&gt;biometric_failed&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="33" y="620" width="120" height="60" as="geometry" />
+        <mxCell id="uFCmPriLI4l2OT3lbVlF-1" value="erro insights&lt;div&gt;biometric_failed&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uFCmPriLI4l2OT3lbVlF-3" value="emit EventBus&lt;div&gt;modal abrir menu biometrico&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="437" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uFCmPriLI4l2OT3lbVlF-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Issue GIT 96646&lt;/h1&gt;&lt;p&gt;esse tratamento foi necessário por conta de um bug no local_auth&lt;/p&gt;&lt;p&gt;issue: https://github.com/flutter/flutter/issues/96646&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="577" y="630" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="uFCmPriLI4l2OT3lbVlF-7" value="MFE - UTILITIES" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="140" width="850" height="700" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
