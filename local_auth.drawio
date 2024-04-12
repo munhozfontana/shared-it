@@ -1,15 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2024-04-11T17:46:47.714Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15" etag="wC1ZzNCrCBRp0jqgxYPy" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-12T21:22:32.561Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15" etag="X8Z80z-EzDYwOOtkOVLY" version="24.2.2" type="github">
   <diagram name="Page-1" id="7aqCi2-gou_1MsXE5nKl">
-    <mxGraphModel dx="3187" dy="1540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="1862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="aK0WpfesQRl-djgzvzo7-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aK0WpfesQRl-djgzvzo7-52" target="aK0WpfesQRl-djgzvzo7-54" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="aK0WpfesQRl-djgzvzo7-52" value="local_auth&lt;div&gt;&lt;b&gt;authenticate&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="650" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="aK0WpfesQRl-djgzvzo7-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aK0WpfesQRl-djgzvzo7-54" target="aK0WpfesQRl-djgzvzo7-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -83,11 +77,14 @@
         <mxCell id="uFCmPriLI4l2OT3lbVlF-3" value="emit EventBus&lt;div&gt;modal abrir menu biometrico&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="437" y="720" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uFCmPriLI4l2OT3lbVlF-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Issue GIT 96646&lt;/h1&gt;&lt;p&gt;esse tratamento foi necessário por conta de um bug no local_auth&lt;/p&gt;&lt;p&gt;issue: https://github.com/flutter/flutter/issues/96646&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="577" y="630" width="250" height="130" as="geometry" />
-        </mxCell>
         <mxCell id="uFCmPriLI4l2OT3lbVlF-7" value="MFE - UTILITIES" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="140" width="850" height="700" as="geometry" />
+          <mxGeometry y="-40" width="880" height="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="uFCmPriLI4l2OT3lbVlF-10" value="local_auth&lt;div&gt;&lt;b&gt;authenticate&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uFCmPriLI4l2OT3lbVlF-7">
+          <mxGeometry x="650" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uFCmPriLI4l2OT3lbVlF-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Issue GIT 96646&lt;/h1&gt;&lt;p&gt;esse tratamento foi necessário por conta de um bug no local_auth&lt;/p&gt;&lt;p&gt;issue: https://github.com/flutter/flutter/issues/96646&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="520" width="250" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
