@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-12T23:10:23.845Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15" etag="LLiSHokSJmgVzYMixgJB" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-12T23:11:23.649Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15" etag="Xcb6npkdUZxf9U2YAFkP" version="24.2.2" type="github">
   <diagram name="Page-1" id="7aqCi2-gou_1MsXE5nKl">
-    <mxGraphModel dx="4780" dy="3479" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4097" dy="3149" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -69,11 +69,11 @@
         <mxCell id="uFCmPriLI4l2OT3lbVlF-52" value="generica" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="389" y="761" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uFCmPriLI4l2OT3lbVlF-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uFCmPriLI4l2OT3lbVlF-53" target="uFCmPriLI4l2OT3lbVlF-90">
+        <mxCell id="uFCmPriLI4l2OT3lbVlF-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uFCmPriLI4l2OT3lbVlF-53" target="uFCmPriLI4l2OT3lbVlF-90">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="449" y="954" />
-              <mxPoint x="1280" y="954" />
+              <mxPoint x="1209" y="954" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -146,11 +146,11 @@
         <mxCell id="uFCmPriLI4l2OT3lbVlF-85" value="sim" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uFCmPriLI4l2OT3lbVlF-82" target="uFCmPriLI4l2OT3lbVlF-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uFCmPriLI4l2OT3lbVlF-94" value="não" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uFCmPriLI4l2OT3lbVlF-82" target="uFCmPriLI4l2OT3lbVlF-90">
+        <mxCell id="uFCmPriLI4l2OT3lbVlF-94" value="não" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uFCmPriLI4l2OT3lbVlF-82" target="uFCmPriLI4l2OT3lbVlF-90">
           <mxGeometry x="-0.813" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="653" y="1099" />
-              <mxPoint x="1280" y="1099" />
+              <mxPoint x="1209" y="1099" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -167,10 +167,10 @@
           <mxGeometry x="787" y="996" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uFCmPriLI4l2OT3lbVlF-90" value="&lt;b&gt;fim&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1256" y="486" width="48" height="48" as="geometry" />
+          <mxGeometry x="1185" y="486" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="uFCmPriLI4l2OT3lbVlF-98" value="&lt;h1 style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-caps: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; margin-top: 0px;&quot;&gt;MFE - UTILITIES&lt;/h1&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="705" y="-236" width="243" height="42" as="geometry" />
+          <mxGeometry x="705" y="-176" width="243" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
