@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-16T19:59:43.944Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15" etag="VBnYl2RwWgdmMJmip6rn" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-16T21:17:40.932Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15" etag="In2Vryb2lUweetSfPWK1" version="24.2.5" type="github">
   <diagram name="Page-1" id="7aqCi2-gou_1MsXE5nKl">
-    <mxGraphModel dx="3585" dy="2902" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="925" dy="1616" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -337,7 +337,7 @@
           <mxGeometry x="105" y="14.5" width="223" height="51" as="geometry" />
         </mxCell>
         <mxCell id="6nUs9YAi-4OCBmOYSuKF-59" value="Exceções&#xa;&#xa;- **passcodeNotSet** (Código de Acesso Não Configurado): Isso significa que a pessoa ainda não escolheu um código de acesso no seu telefone (como um código numérico no iPhone ou um padrão de desenho no Android).&#xa;&#xa;- **notEnrolled** (Não Cadastrado): Isso quer dizer que o telefone não tem as digitais ou rosto da pessoa salvas para desbloquear.&#xa;&#xa;- **notAvailable** (Indisponível): O telefone não tem o equipamento necessário para usar as digitais ou o rosto para desbloquear.&#xa;&#xa;- **otherOperatingSystem** (Outro Sistema Operacional): Se o aplicativo não funciona no sistema operacional do telefone, ele mostra esta mensagem.&#xa;&#xa;- **lockedOut** (Bloqueado): A função de desbloqueio foi temporariamente desativada porque alguém tentou desbloquear o telefone muitas vezes sem sucesso.&#xa;&#xa;- **permanentlyLockedOut** (Bloqueio Permanente): Agora, só é possível desbloquear o telefone com o código numérico ou padrão, pois a função de desbloqueio com digitais ou rosto foi desativada permanentemente.&#xa;&#xa;- **biometricOnlyNotSupported** (Biometria Apenas Não Suportada): Isso significa que o telefone não pode ser desbloqueado só com a digital ou rosto, ele precisa de um código numérico ou padrão." style="text;whiteSpace=wrap;strokeWidth=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1741" y="151" width="535" height="581" as="geometry" />
+          <mxGeometry x="170" y="-852" width="535" height="581" as="geometry" />
         </mxCell>
         <mxCell id="6nUs9YAi-4OCBmOYSuKF-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6nUs9YAi-4OCBmOYSuKF-61" target="6nUs9YAi-4OCBmOYSuKF-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
