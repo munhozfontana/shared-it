@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-15T22:17:05.064Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15" etag="s7eJGPXyFbJkMAfY1cBL" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-16T12:16:01.607Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15" etag="03Hfej-JqS8zgp4A--GW" version="24.2.5" type="github">
   <diagram name="Page-1" id="7aqCi2-gou_1MsXE5nKl">
-    <mxGraphModel dx="2868" dy="2555" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2390" dy="2324" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -99,9 +99,6 @@
         <mxCell id="uFCmPriLI4l2OT3lbVlF-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uFCmPriLI4l2OT3lbVlF-52" target="uFCmPriLI4l2OT3lbVlF-51" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uFCmPriLI4l2OT3lbVlF-57" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1310" y="640" width="250" height="130" as="geometry" />
-        </mxCell>
         <mxCell id="uFCmPriLI4l2OT3lbVlF-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uFCmPriLI4l2OT3lbVlF-52" target="uFCmPriLI4l2OT3lbVlF-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -127,7 +124,7 @@
           <mxGeometry x="686" y="119" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="uFCmPriLI4l2OT3lbVlF-73" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="299" y="-186" width="326" height="407" as="geometry" />
+          <mxGeometry x="1007" y="-153" width="326" height="407" as="geometry" />
         </mxCell>
         <mxCell id="uFCmPriLI4l2OT3lbVlF-67" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Args da chamada&lt;/h1&gt;&lt;p&gt;Na chamada da função vai existir a possibilidade de passar valores opcionais de &lt;b&gt;key/value &lt;/b&gt;caso exista a necessidade de salvar alguma informação sensível após sucesso biométrico&lt;/p&gt;Exemplo:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ou um objeto&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="uFCmPriLI4l2OT3lbVlF-73" vertex="1">
           <mxGeometry width="326" height="407" as="geometry" />
@@ -189,6 +186,27 @@
             <mxGeometry x="731" y="725" width="248" height="195" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="ctKLtYblNAu11bIY_psp-20" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="158" y="-134" width="330" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ctKLtYblNAu11bIY_psp-15" value="" style="group" vertex="1" connectable="0" parent="ctKLtYblNAu11bIY_psp-20">
+          <mxGeometry width="321.3600000000001" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ctKLtYblNAu11bIY_psp-13" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ctKLtYblNAu11bIY_psp-15">
+          <mxGeometry x="6" y="10" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctKLtYblNAu11bIY_psp-14" value="package&lt;b&gt; local_auth&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=19;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="ctKLtYblNAu11bIY_psp-15">
+          <mxGeometry x="105" y="14.5" width="216.36" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="ctKLtYblNAu11bIY_psp-17" value="" style="group" vertex="1" connectable="0" parent="ctKLtYblNAu11bIY_psp-20">
+          <mxGeometry x="2" y="110" width="328" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ctKLtYblNAu11bIY_psp-18" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="ctKLtYblNAu11bIY_psp-17">
+          <mxGeometry x="6" y="10" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctKLtYblNAu11bIY_psp-19" value="Desnvolvimento" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=19;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="ctKLtYblNAu11bIY_psp-17">
+          <mxGeometry x="105" y="14.5" width="223" height="51" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
