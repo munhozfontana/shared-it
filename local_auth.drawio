@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-17T20:50:50.449Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15" etag="SA2kESqwyj0bWkADJNL2" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-17T20:52:02.745Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15" etag="80ai3uEGVBrHUaUr7kxl" version="24.2.5" type="github">
   <diagram name="Page-1" id="7aqCi2-gou_1MsXE5nKl">
     <mxGraphModel dx="2868" dy="2561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -355,7 +355,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lNZI6vd01uDw2m6jNXR1-86" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Feedback Tec&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;complexidade.&lt;br&gt;&lt;/li&gt;&lt;li&gt;risco por conta das issues&lt;br&gt;&lt;/li&gt;&lt;li&gt;facilidade pro usuário&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="lNZI6vd01uDw2m6jNXR1-86" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Feedback Tec&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;complexidade.&lt;br&gt;&lt;/li&gt;&lt;li&gt;risco por conta das issues&lt;br&gt;&lt;/li&gt;&lt;li&gt;facilidade pro usuário&lt;br&gt;&lt;/li&gt;&lt;li&gt;usuário geralmente já configura biometria no primero uso do app&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="979" y="321" width="229" height="159" as="geometry" />
         </mxCell>
         <mxCell id="lNZI6vd01uDw2m6jNXR1-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.931;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lNZI6vd01uDw2m6jNXR1-86" target="lNZI6vd01uDw2m6jNXR1-86">
