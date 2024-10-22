@@ -1,23 +1,179 @@
-## Considerações Técnicas
-- Utilizar Angular 15 como framework principal para o desenvolvimento da funcionalidade.
-- Reaproveitar os componentes da biblioteca interna da empresa, a "LibGestaoConteudoModule":
-    - Para a listagem das empresas: `gc-company-card-list`
-    - Para a listagem dos analistas: `gc-analsty-card-list`
-    - Para a listagem dos relatórios: `gc-reports-list`
-    - Esse aproveitamento dos componentes garantirá consistência visual e facilitará a manutenção futura, além de promover a coesão entre as diferentes partes da aplicação.
-- Integrar as APIs específicas para busca:
-    - API de relatórios: `/api/reports`
-    - API de companhias: `/api/companies`
-    - API de analistas: `/api/analysts`
-- Realizar chamadas assíncronas para as APIs utilizando os serviços de HTTP fornecidos pelo Angular.
-- Implementar tratamento de erros robusto para cenários de falha na chamada da API, exibindo mensagens de erro adequadas ao usuário e fornecendo opções para tentar novamente:
-    - **Erro de Resultado Vazio:**
-        - Se a busca não retornar resultados, exibir uma mensagem convidando o usuário a tentar uma nova busca. A mensagem deve ser clara e compreensível para o usuário (validar com a UX, Marina).
-    - **Erro no Backend:**
-        - Em caso de falha na conexão com o servidor, mostrar uma mensagem de erro indicando que houve um problema ao processar a solicitação. Oferecer a opção de tentar novamente. Se o problema persistir, sugerir que o usuário entre em contato com o suporte técnico. (validar com a UX, Marina).
-- Implementar testes unitários e de integração utilizando Jest para garantir a qualidade e a estabilidade da funcionalidade de busca.
-- Realizar o tagamento de acordo com as regras definidas pelo Product Owner (Leonardo) para rastreamento de eventos relacionados à busca.
-- Garantir que a funcionalidade seja responsiva e ofereça uma boa experiência de usuário em diferentes dispositivos e tamanhos de tela.
+### 1. Bases por Setor
 
-## Repositório de Desenvolvimento
-[Repositório no GitHub](https://github.com/itau-corp/itau-fw9-app-gestaoconteudo-home)
+- **Método**: `GET`
+- **Endpoint**: `/api/bases-per-sector`
+- **Descrição**: Retorna várias timelines de gráficos onde o eixo X representa o tempo e o eixo Y representa os valores.
+- **Filtros**:
+  - `sector` (opcional): Filtra por setor (ex.: indústria, serviços).
+  - `variation` (opcional): Tipo de variação (ex.: real, dólar).
+  - `timeFrame` (opcional): Período de tempo (ex.: mensal, anual, ou intervalo específico).
+  
+- **Resposta**:
+  - **Status 200 (OK)**:
+    ```json
+    {
+      "sector": "Indústria",
+      "variation": "real",
+      "data": [
+        {
+          "time": "2024-01-01",
+          "value": 1500.50
+        },
+        {
+          "time": "2024-02-01",
+          "value": 1520.75
+        }
+      ]
+    }
+    ```
+
+---
+
+### 2. Bases por Cartão de Crédito
+
+- **Método**: `GET`
+- **Endpoint**: `/api/bases-x-credit-card`
+- **Descrição**: Retorna várias timelines de gráficos com valores relacionados a bases de cartão de crédito.
+- **Filtros**:
+  - `sector` (opcional): Filtra por setor (ex.: tecnologia, saúde).
+  - `variation` (opcional): Tipo de variação (real, dólar, etc.).
+  - `timeFrame` (opcional): Período de tempo.
+  
+- **Resposta**:
+  - **Status 200 (OK)**:
+    ```json
+    {
+      "sector": "Serviços",
+      "variation": "dólar",
+      "data": [
+        {
+          "time": "2024-01-01",
+          "value": 300.75
+        },
+        {
+          "time": "2024-02-01",
+          "value": 320.40
+        }
+      ]
+    }
+    ```
+
+---
+
+### 3. Emprego
+
+- **Método**: `GET`
+- **Endpoint**: `/api/employment`
+- **Descrição**: Retorna várias timelines relacionadas ao emprego.
+- **Filtros**:
+  - `timeFrame` (opcional): Período de tempo.
+
+- **Resposta**:
+  - **Status 200 (OK)**:
+    ```json
+    {
+      "data": [
+        {
+          "time": "2024-01-01",
+          "employmentLevel": 5.2
+        },
+        {
+          "time": "2024-02-01",
+          "employmentLevel": 5.4
+        }
+      ]
+    }
+    ```
+
+---
+
+### 4. Salário vs Massa Salarial
+
+- **Método**: `GET`
+- **Endpoint**: `/api/salary-vs-mass-salary`
+- **Descrição**: Retorna várias timelines de gráficos comparando salários com a massa salarial.
+- **Filtros**:
+  - `sector` (opcional): Filtra por setor.
+  - `variation` (opcional): Tipo de variação (real, dólar, etc.).
+  - `timeFrame` (opcional): Período de tempo.
+  
+- **Resposta**:
+  - **Status 200 (OK)**:
+    ```json
+    {
+      "sector": "Tecnologia",
+      "variation": "real",
+      "data": [
+        {
+          "time": "2024-01-01",
+          "salary": 4500.50,
+          "massSalary": 30000.00
+        },
+        {
+          "time": "2024-02-01",
+          "salary": 4600.00,
+          "massSalary": 31000.00
+        }
+      ]
+    }
+    ```
+
+---
+
+### 5. Salário por Setor
+
+- **Método**: `GET`
+- **Endpoint**: `/api/sector-salary`
+- **Descrição**: Retorna várias timelines de gráficos relacionados ao salário por setor.
+- **Filtros**:
+  - `sector` (opcional): Filtra por setor.
+  - `timeFrame` (opcional): Período de tempo.
+  
+- **Resposta**:
+  - **Status 200 (OK)**:
+    ```json
+    {
+      "sector": "Agronegócio",
+      "data": [
+        {
+          "time": "2024-01-01",
+          "salary": 3000.00
+        },
+        {
+          "time": "2024-02-01",
+          "salary": 3100.00
+        }
+      ]
+    }
+    ```
+
+---
+
+### 6. Regional
+
+- **Método**: `GET`
+- **Endpoint**: `/api/regional`
+- **Descrição**: Retorna várias timelines de gráficos por região.
+- **Filtros**:
+  - `sector` (opcional): Filtra por setor.
+  - `UF` (opcional): Filtra por Unidade Federativa (ex.: SP, RJ).
+  - `timeFrame` (opcional): Período de tempo.
+  
+- **Resposta**:
+  - **Status 200 (OK)**:
+    ```json
+    {
+      "region": "Sudeste",
+      "UF": "SP",
+      "data": [
+        {
+          "time": "2024-01-01",
+          "value": 5000.00
+        },
+        {
+          "time": "2024-02-01",
+          "value": 5200.00
+        }
+      ]
+    }
+    ```
