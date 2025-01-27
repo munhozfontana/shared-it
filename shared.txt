@@ -1,0 +1,193 @@
+### **Discovery da Feature: Migração da biblioteca `app-shared` para a nova versão do IDS**
+
+#### **Objetivo**
+Migrar a biblioteca `app-shared` para a nova versão do IDS, garantindo compatibilidade com Angular 15 e TypeScript 4.9.5, além de substituir o antigo design system Voxel pelo novo.
+
+---
+
+### **Requisitos mínimos**
+1. **Atualização do Angular e TypeScript**  
+   - Atualizar o Angular da versão 13 para a 15.  
+   - Atualizar o TypeScript para a versão 4.9.5.  
+
+2. **Remoção do design system antigo (Voxel)**  
+   - Executar o comando: `npm uninstall @voxel/components`.  
+
+3. **Instalação do novo design system (IDS)**  
+   - Executar o comando: `npm i @ids/angular`.  
+
+---
+
+### **Etapas da migração**
+
+#### **1. Ajustes no Angular e TypeScript**
+   - Atualizar o Angular da versão 13 para a 14.  
+   - Atualizar o TypeScript para a versão 4.9.5.  
+   - Atualizar o Angular da versão 14 para a 15.  
+
+#### **2. Migração do CSS**
+   - **Renomeação dos imports de estilos**  
+     - Ajustar os imports do arquivo `foundation-angular-styles.scss` para refletir a nova estrutura.  
+   - **Configuração do `stylePreprocessorOptions`**  
+     - Adicionar a seguinte configuração no arquivo `angular.json`:  
+       ```json
+       "stylePreprocessorOptions": {
+          "includePaths": [
+             "./node_modules"
+          ]
+       }
+       ```
+   - **Renomeação de classes CSS**  
+     - Substituir:  
+       - `ids-pv-` e `ids-ph-` por `ids-py-` e `ids-px-`.  
+       - `ids-mv-` e `ids-mh-` por `ids-my-` e `ids-mx-`.  
+   - **Replicação de fontes**  
+     - Seguir as especificações do link (fornecer detalhes posteriormente).  
+   - **Importação das novas folhas de estilo**  
+     - Importar os arquivos de estilos fornecidos (fornecer links posteriormente).  
+
+#### **3. Migração dos Componentes**
+   - Detalhar uma lista de todos os componentes que precisam ser migrados (lista será compartilhada posteriormente).  
+
+#### **4. Organização e Visualização dos Componentes**
+   - Separar os componentes de exemplo em arquivos individuais.  
+   - Criar um menu para selecionar qual componente visualizar no projeto de exemplo.  
+
+---
+
+### **Estrutura das histórias**
+
+#### **História 1: Atualizar o Angular e TypeScript**
+   - **Tarefa 1.1**: Atualizar Angular da versão 13 para a 14.  
+   - **Tarefa 1.2**: Atualizar TypeScript para a versão 4.9.5.  
+   - **Tarefa 1.3**: Atualizar Angular da versão 14 para a 15.  
+
+#### **História 2: Migrar o CSS**
+   - **Tarefa 2.1**: Renomear imports dos estilos no `foundation-angular-styles.scss`.  
+   - **Tarefa 2.2**: Configurar `stylePreprocessorOptions` no `angular.json` com o seguinte valor:  
+     ```json
+     "stylePreprocessorOptions": {
+        "includePaths": [
+           "./node_modules"
+        ]
+     }
+     ```
+   - **Tarefa 2.3**: Renomear classes CSS:  
+     - Substituir `ids-pv-` e `ids-ph-` por `ids-py-` e `ids-px-`.  
+     - Substituir `ids-mv-` e `ids-mh-` por `ids-my-` e `ids-mx-`.  
+   - **Tarefa 2.4**: Replicar fontes conforme o link fornecido.  
+   - **Tarefa 2.5**: Importar novas folhas de estilo conforme o link fornecido.  
+
+#### **História 3: Migrar os componentes para o novo IDS**
+   - **Tarefa 3.1**: Remover o antigo design system Voxel (`@voxel/components`).  
+   - **Tarefa 3.2**: Instalar o novo design system IDS (`@ids/angular`).  
+   - **Tarefa 3.3**: Atualizar os componentes listados (lista será compartilhada posteriormente).  
+
+#### **História 4: Organizar e visualizar os componentes**
+   - **Tarefa 4.1**: Criar arquivos individuais para cada componente no projeto de exemplo.  
+   - **Tarefa 4.2**: Implementar um menu para navegar entre os componentes no projeto de exemplo.  
+
+---
+
+### **Arquitetura de pastas sugerida**
+
+#### **Categorias de Componentes**
+
+1. **Forms**
+   - Componentes relacionados a formulários:
+     - Inputs (text, number, password, etc.).
+     - Checkboxes e radio buttons.
+     - Selects.
+     - Textareas.
+     - Botões de envio.
+
+2. **Alerts**
+   - Componentes de alertas e notificações:
+     - Toasts.
+     - Snackbars.
+     - Alertas de sucesso, erro e aviso.
+
+3. **Buttons**
+   - Botões reutilizáveis:
+     - Botões primários e secundários.
+     - Botões com ícones.
+     - Botões de ação flutuantes.
+
+4. **Layouts**
+   - Componentes relacionados à estrutura de interface:
+     - Grid system.
+     - Cards.
+     - Panels.
+     - Tabs e Accordions.
+     - Sidebars.
+
+5. **Modals**
+   - Componentes de janelas modais:
+     - Diálogos de confirmação.
+     - Janelas de pop-up.
+     - Overlays.
+
+6. **Loaders**
+   - Indicadores de carregamento:
+     - Spinners.
+     - Progress bars.
+     - Skeletons.
+
+7. **Utilities**
+   - Componentes utilitários e de suporte:
+     - Toggles e switches.
+     - Ícones reutilizáveis.
+     - Filtros e ajustes gerais.
+
+---
+
+#### **Exemplo de Estrutura de Pastas**
+
+```plaintext
+app-shared/
+│
+├── components/
+│   ├── forms/
+│   │   ├── input/
+│   │   │   ├── input.component.ts
+│   │   │   ├── input.component.html
+│   │   │   └── input.component.scss
+│   │   ├── checkbox/
+│   │   │   ├── checkbox.component.ts
+│   │   │   ├── checkbox.component.html
+│   │   │   └── checkbox.component.scss
+│   │   └── ...
+│   ├── alerts/
+│   │   ├── toast/
+│   │   ├── snackbar/
+│   │   └── ...
+│   ├── buttons/
+│   │   ├── primary-button/
+│   │   ├── secondary-button/
+│   │   └── ...
+│   ├── layouts/
+│   │   ├── grid/
+│   │   ├── card/
+│   │   └── ...
+│   ├── modals/
+│   │   ├── confirmation-dialog/
+│   │   ├── overlay/
+│   │   └── ...
+│   ├── loaders/
+│   │   ├── spinner/
+│   │   ├── progress-bar/
+│   │   └── ...
+│   ├── utilities/
+│   │   ├── toggle/
+│   │   ├── icons/
+│   │   └── ...
+│   └── ...
+│
+└── example-app/
+    ├── app/
+    ├── components/
+    │   ├── menu/
+    │   ├── component-preview/
+    │   └── ...
+    └── ...
+```
